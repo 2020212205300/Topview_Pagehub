@@ -6,7 +6,7 @@ const platforms = [
     name: "Amazon",
     description: "Pure white backgrounds and lifestyle shots that meet Amazon's strict visual standards.",
     iconType: "image",
-    icon: "/public/amazon.svg",
+    icon: "/amazon.svg",
     color: "#FF9900",
     bg: "rgba(255, 153, 0, 0.05)"
   },
@@ -14,7 +14,7 @@ const platforms = [
     name: "Shopify",
     description: "Branded product imagery designed to boost conversion rates on your online store.",
     iconType: "image",
-    icon: "/public/shopify.svg",
+    icon: "/shopify.svg",
     color: "#95BF47",
     bg: "rgba(149, 191, 71, 0.05)"
   },
@@ -22,7 +22,7 @@ const platforms = [
     name: "TikTok Shop",
     description: "Eye-catching visuals optimized for TikTok's social-first product promotion.",
     iconType: "image",
-    icon: "/public/tiktok.svg",
+    icon: "/tiktok.svg",
     color: "#00f2ea",
     bg: "rgba(0, 242, 234, 0.05)"
   },
@@ -30,7 +30,7 @@ const platforms = [
     name: "Instagram",
     description: "Aesthetic, lifestyle-oriented photos perfect for Instagram Shopping and feed posts.",
     iconType: "image",
-    icon: "/public/Instagram.png",
+    icon: "/Instagram.png",
     color: "#E1306C",
     bg: "rgba(225, 48, 108, 0.05)"
   },
@@ -38,7 +38,7 @@ const platforms = [
     name: "eBay & Etsy",
     description: "High-quality, authentic product shots that stand out in competitive marketplaces.",
     iconType: "image",
-    icon: "/public/Etsy.svg",
+    icon: "/Etsy.svg",
     color: "#F1641E",
     bg: "rgba(241, 100, 30, 0.05)"
   },
