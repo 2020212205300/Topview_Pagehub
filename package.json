@@ -10,7 +10,7 @@
     "dev:text": "cd landing-page/text-to-video && npm run dev",
     "dev:usecase": "cd use-cases/advertising && npm run dev",
     "dev:alt": "cd alternatives/compare && npm run dev",
-    "build": "echo 'Root build not implemented' && exit 1",
+    "build": "cd landing-page/ai-product-photo && npm install && npm run build && cd ../.. && rm -rf dist && cp -r landing-page/ai-product-photo/dist ./dist",
     "preview": "vite preview"
   },
   "devDependencies": {
