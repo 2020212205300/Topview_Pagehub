@@ -3,18 +3,18 @@ import { Box, Container, Heading, Text, SimpleGrid, VStack, Badge } from "@chakr
 const steps = [
   {
     number: "STEP 1",
-    title: "Upload Your Product",
-    description: "Upload your raw product photo. The AI automatically identifies the subject and removes the background.",
+    title: "Upload Product Images or Use Templates",
+    description: "Upload your product photos or choose from professional templates tailored for e-commerce and marketing needs.",
   },
   {
     number: "STEP 2",
-    title: "Generate Scene",
-    description: "Describe your desired setting or choose from hundreds of professional templates to generate the perfect background.",
+    title: "Customize Backgrounds and AI Elements",
+    description: "Automatically remove backgrounds and generate photorealistic scenes with perfectly matched lighting and shadows.",
   },
   {
     number: "STEP 3",
-    title: "Download & Publish",
-    description: "Select your favorite shots and download high-resolution assets ready for Amazon, Shopify, or social media.",
+    title: "Generate and Download Your AI Product Photos",
+    description: "Preview, adjust, and download high-resolution AI product photos optimized for any social media or marketplace platform.",
   },
 ];
 
@@ -24,9 +24,9 @@ const StepsSection = () => {
       <Container maxW="container.xl">
         <VStack spacing={4} textAlign="center" mb={16}>
           <Heading as="h2" size={{ base: "2xl", md: "4xl" }} fontWeight="black" mb="6" color="white" lineHeight="1.1">
-            Professional Product Photos{" "}
+            How to Create Engaging{" "}
             <Text as="span" bgGradient="linear(to-r, #FF6B6B, brand.500, #4ECDC4)" bgClip="text">
-              in 3 Simple Steps
+              AI Product Photos in 3 Simple Steps
             </Text>
           </Heading>
           <Text fontSize={{ base: "lg", md: "xl" }} color="gray.400" fontWeight="medium" maxW="2xl">

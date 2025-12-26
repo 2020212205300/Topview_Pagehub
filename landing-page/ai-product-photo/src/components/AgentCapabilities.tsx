@@ -9,9 +9,9 @@ const professionalGroups = [
     icon: Store, 
     color: "purple.400",
     details: [
-      "Generate high-converting AI product photos",
-      "No studio or photoshoot required",
-      "Perfect for Shopify and Amazon"
+      "High-converting AI photos",
+      "No studio needed",
+      "Shopify & Amazon ready"
     ]
   },
   { 
@@ -19,9 +19,9 @@ const professionalGroups = [
     icon: Megaphone, 
     color: "orange.400",
     details: [
-      "Scale product visual testing across channels",
-      "Test more background variations",
-      "Increase CTR with better product shots"
+      "Scale visual testing",
+      "More background variations",
+      "Higher CTR"
     ]
   },
   { 
@@ -29,9 +29,9 @@ const professionalGroups = [
     icon: Gem, 
     color: "green.400",
     details: [
-      "Maintain brand consistency with AI photography",
-      "Create seasonal lifestyle assets in seconds",
-      "Reduce content production costs"
+      "Consistent branding",
+      "Seasonal assets in seconds",
+      "Lower production costs"
     ]
   },
   { 
@@ -39,9 +39,9 @@ const professionalGroups = [
     icon: Briefcase, 
     color: "blue.400",
     details: [
-      "Scale product photoshoot output for clients",
-      "Shorten project delivery cycles",
-      "Offer AI-powered visual services"
+      "Scale client output",
+      "Faster delivery cycles",
+      "AI-powered services"
     ]
   },
   { 
@@ -49,9 +49,9 @@ const professionalGroups = [
     icon: Rocket, 
     color: "yellow.400",
     details: [
-      "Transform supplier photos into professional shots",
-      "Stand out from other sellers instantly",
-      "Launch products with premium visuals"
+      "Pro supplier shots",
+      "Instant differentiation",
+      "Premium product launches"
     ]
   },
   { 
@@ -59,9 +59,9 @@ const professionalGroups = [
     icon: Target, 
     color: "cyan.400",
     details: [
-      "Create aesthetic product content for feeds",
-      "Boost engagement with human-centric AI models",
-      "Maintain active presence with fresh visuals"
+      "Aesthetic feed content",
+      "Higher engagement",
+      "Fresh daily visuals"
     ]
   },
   { 
@@ -69,9 +69,9 @@ const professionalGroups = [
     icon: ShoppingBag, 
     color: "brand.500",
     details: [
-      "Meet strict marketplace visual requirements",
-      "Generate A+ content and main images",
-      "Dominate search results with better visuals"
+      "Marketplace compliant",
+      "A+ content ready",
+      "Search dominant visuals"
     ]
   },
   { 
@@ -79,9 +79,9 @@ const professionalGroups = [
     icon: Ruler, 
     color: "pink.400",
     details: [
-      "Automate tedious background removals",
-      "Focus on creative composition",
-      "Deliver faster prototypes for clients"
+      "Auto background removal",
+      "Creative focus",
+      "Rapid prototyping"
     ]
   }
 ];
