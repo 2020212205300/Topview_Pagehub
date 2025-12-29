@@ -1,12 +1,17 @@
 import { Box, Container, Heading, Text, VStack, HStack, Icon, SimpleGrid, Flex, Image, Button } from "@chakra-ui/react";
 import { ChevronRight } from "lucide-react";
+import bananaIcon from "../../public/banana.svg";
+import seedanceIcon from "../../public/seedance.svg";
+import geminiIcon from "../../public/gemini-sparkle.svg";
+import gptIcon from "../../public/GPT.svg";
+import kontextIcon from "../../public/kontext.svg";
 
 const aiModels = [
-  { name: "Nano Banana", icon: "/banana.svg" },
-  { name: "SeeDream", icon: "/seedance.svg" },
-  { name: "Imagen", icon: "/gemini-sparkle.svg" },
-  { name: "gpt-image", icon: "/GPT.svg" },
-  { name: "Kontext", icon: "/kontext.svg" },
+  { name: "Nano Banana", icon: bananaIcon },
+  { name: "SeeDream", icon: seedanceIcon },
+  { name: "Imagen", icon: geminiIcon },
+  { name: "gpt-image", icon: gptIcon },
+  { name: "Kontext", icon: kontextIcon },
 ];
 
 const GeneratorSection = () => {

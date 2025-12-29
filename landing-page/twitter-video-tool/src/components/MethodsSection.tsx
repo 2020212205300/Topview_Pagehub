@@ -1,34 +1,40 @@
 import { Box, Container, Heading, Text, VStack, SimpleGrid, Image, Link, Button } from "@chakra-ui/react";
+import viralMarketingImg from "../../public/Viral Marketing.png";
+import ugcImg from "../../public/UGC.png";
+import productDemosImg from "../../public/Product Demos.png";
+import socialGrowthImg from "../../public/Social Growth.png";
+import brandImg from "../../public/Brand.png";
+import viralShotsImg from "../../public/Viral Shots.png";
 
 const templateImages = [
   { 
     label: "Viral Marketing",
-    image: "/landing-page/twitter-video-tool/public/Viral Marketing.png",
+    image: viralMarketingImg,
     link: "https://agent.topview.ai/agent-share?sessionId=25324874e6f643b6a74ec23890d000a4"
   },
   { 
     label: "UGC Creators",
-    image: "/landing-page/twitter-video-tool/public/UGC.png",
+    image: ugcImg,
     link: "https://agent.topview.ai/agent-share?sessionId=3908ce6f91774719a2cd88a3409957f3"
   },
   { 
     label: "Product Demos",
-    image: "/landing-page/twitter-video-tool/public/Product Demos.png",
+    image: productDemosImg,
     link: "https://agent.topview.ai/agent-share?sessionId=3d3519a778f94b148c58274462e1d022"
   },
   { 
     label: "Social Growth",
-    image: "/landing-page/twitter-video-tool/public/Social Growth.png",
+    image: socialGrowthImg,
     link: "https://agent.topview.ai/agent-share?sessionId=3314a103f7684cf39f0c6457d128d8c0"
   },
   { 
     label: "Brand Stories",
-    image: "/landing-page/twitter-video-tool/public/Brand.png",
+    image: brandImg,
     link: "https://agent.topview.ai/agent-share?sessionId=247554b461524bbba7c538fb35e2039c"
   },
   { 
     label: "Viral Shorts",
-    image: "/landing-page/twitter-video-tool/public/Viral Shots.png",
+    image: viralShotsImg,
     link: "https://agent.topview.ai/agent-share?sessionId=32ff37b16f9e48f386fd19f7d45ed1d1"
   }
 ];
