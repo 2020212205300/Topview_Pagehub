@@ -1,5 +1,4 @@
-import { Box, Container, Heading, Text, SimpleGrid, Flex, Image, Icon } from "@chakra-ui/react";
-import { Play } from "lucide-react";
+import { Box, Container, Heading, Text, SimpleGrid, Flex, Image } from "@chakra-ui/react";
 
 const useCases = [
   { 
@@ -59,34 +58,6 @@ const AIFeatures = () => {
                 transition="transform 0.5s ease"
                 _groupHover={{ transform: "scale(1.05)" }}
               />
-
-              {/* Play Button Overlay */}
-              <Flex
-                position="absolute"
-                top="0"
-                left="0"
-                right="0"
-                bottom="0"
-                alignItems="center"
-                justifyContent="center"
-                zIndex="2"
-              >
-                <Box
-                  bg="whiteAlpha.300"
-                  backdropFilter="blur(10px)"
-                  borderRadius="full"
-                  p="4"
-                  transition="all 0.3s ease"
-                  _groupHover={{ 
-                    transform: "scale(1.1)",
-                    bg: "brand.500",
-                    color: "white"
-                  }}
-                  color="white"
-                >
-                  <Icon as={Play} fill="currentColor" w="6" h="6" ml="1" />
-                </Box>
-              </Flex>
 
               {/* Bottom Gradient Overlay */}
               <Box
